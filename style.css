@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .content {
@@ -22,6 +23,8 @@
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 5fr;
   height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .sidebar {
@@ -33,6 +36,8 @@
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
+  align-self: start;
+  height: 100vh;
 }
 
 .sidebar > * {
@@ -161,21 +166,77 @@
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-items: start;
+  gap: 25px;
+  padding-top: 20px;
+  padding-left: 10px;
+  overflow-y: auto;
+  padding-bottom: 40px;
 }
 
 .project-area h2 {
   font-size: 1.5rem;
 }
 
-.trending {
-  grid-column: 2/3;
-  grid-row: 2/3;
+.projects {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px repeat(3, 200px);
+  grid-auto-rows: 200px;
+  gap: 20px;
 }
 
-.projects {
-  grid-row: 1/3;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 50px repeat(3, 1fr);
+.projects h2 {
+  grid-column: 1/3;
 }
+
+.card-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.card-buttons svg {
+  height: 1.5rem;
+}
+
+.project-card > * {
+  margin: 0 20px;
+}
+
+.project-card {
+  display: grid;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #f0b429;
+}
+
+.card-heading {
+  align-self: flex-end;
+
+  .trending {2/3}
+  font-size: 1.1rem;
+}
+
+.anounce-trend-container {
+  height: 100%;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 25px;
+  outline: dashed 2px red;
+}
+
