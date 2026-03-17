@@ -20,7 +20,7 @@
     "Helvetica Neue",
     sans-serif;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
   height: 100vh;
   width: 100vw;
