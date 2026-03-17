@@ -1,110 +1,115 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Admin Dashboard</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-    </head>
-    <body>
-        <div class="content">
-
-            <div class="sidebar">
-                <div class="title">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="dashboard" class="icon glyph"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect x="2" y="2" width="9" height="11" rx="2"></rect><rect x="13" y="2" width="9" height="7" rx="2"></rect><rect x="2" y="15" width="9" height="7" rx="2"></rect><rect x="13" y="11" width="9" height="11" rx="2"></rect></g></svg>
-                    Dashboard
-                </div>
-                <div class="main-buttons">
-                    <ul>
-                        <li>
-                            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"></path> </g></svg>
-                            Home
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8 9C9.38071 9 10.5 7.88071 10.5 6.5C10.5 5.11929 9.38071 4 8 4C6.61929 4 5.5 5.11929 5.5 6.5C5.5 7.88071 6.61929 9 8 9Z"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM6 10C4.80291 10 3.76957 10.7012 3.28827 11.7152C2.48151 10.6934 2 9.40294 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 9.40294 13.5185 10.6934 12.7117 11.7152C12.2304 10.7012 11.1971 10 10 10H6Z"></path> </g></svg>
-                            Profile
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1H16V13H11L8 16L5 13H0V1Z"></path> </g></svg>
-                            Messages
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.6972,0.468433 C12.354,1.06178 13.7689,2.18485 14.7228,3.66372 C15.6766,5.14258 16.1163,6.89471 15.9736,8.64872 C15.8309,10.4027 15.1138,12.0607 13.9334,13.366 C12.753,14.6712 11.1752,15.5508 9.4443,15.8685 C7.71342,16.1863 5.92606,15.9244 4.35906,15.1235 C2.79206,14.3226 1.53287,13.0274 0.776508,11.4384 C0.539137,10.9397 0.750962,10.343 1.24963,10.1057 C1.74831,9.86829 2.34499,10.0801 2.58236,10.5788 C3.14963,11.7705 4.09402,12.742 5.26927,13.3426 C6.44452,13.9433 7.78504,14.1397 9.08321,13.9014 C10.3814,13.6631 11.5647,13.0034 12.45,12.0245 C13.3353,11.0456 13.8731,9.80205 13.9801,8.48654 C14.0872,7.17103 13.7574,5.85694 13.042,4.74779 C12.3266,3.63864 11.2655,2.79633 10.0229,2.35133 C8.78032,1.90632 7.42568,1.88344 6.1688,2.28624 C5.34644,2.54978 4.59596,2.98593 3.96459,3.5597 L4.69779,4.29291 C5.32776,4.92287 4.88159,6.00002 3.99069,6.00002 L1.77635684e-15,6.00002 L1.77635684e-15,2.00933 C1.77635684e-15,1.11842 1.07714,0.672258 1.70711,1.30222 L2.54916,2.14428 C3.40537,1.3473 4.43126,0.742882 5.55842,0.381656 C7.23428,-0.155411 9.04046,-0.124911 10.6972,0.468433 Z M8,4 C8.55229,4 9,4.44772 9,5 L9,7.58579 L10.7071,9.29289 C11.0976,9.68342 11.0976,10.3166 10.7071,10.7071 C10.3166,11.0976 9.68342,11.0976 9.29289,10.7071 L7,8.41421 L7,5 C7,4.44772 7.44772,4 8,4 Z"></path> </g></svg>
-                            History
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 0v7h7v-3.59l-1 1v1.59h-5v-5h3.59l1-1h-5.59zm7 0l-3 3-1-1-1 1 2 2 4-4-1-1z"></path> </g></svg>
-                            Tasks
-                        </li>
-                        <li>
-                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="group"> <path d="M24,15.9c0-2.8-1.5-5-3.7-6.1C21.3,8.8,22,7.5,22,6c0-2.8-2.2-5-5-5c-2.1,0-3.8,1.2-4.6,3c0,0,0,0,0,0c-0.1,0-0.3,0-0.4,0 c-0.1,0-0.3,0-0.4,0c0,0,0,0,0,0C10.8,2.2,9.1,1,7,1C4.2,1,2,3.2,2,6c0,1.5,0.7,2.8,1.7,3.8C1.5,10.9,0,13.2,0,15.9V20h5v3h14v-3h5 V15.9z M17,3c1.7,0,3,1.3,3,3c0,1.6-1.3,3-3,3c0-1.9-1.1-3.5-2.7-4.4c0,0,0,0,0,0C14.8,3.6,15.8,3,17,3z M13.4,4.2 C13.4,4.2,13.4,4.2,13.4,4.2C13.4,4.2,13.4,4.2,13.4,4.2z M15,9c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S15,7.3,15,9z M10.6,4.2 C10.6,4.2,10.6,4.2,10.6,4.2C10.6,4.2,10.6,4.2,10.6,4.2z M7,3c1.2,0,2.2,0.6,2.7,1.6C8.1,5.5,7,7.1,7,9C5.3,9,4,7.7,4,6S5.3,3,7,3 z M5.1,18H2v-2.1C2,13.1,4.1,11,7,11v0c0,0,0,0,0,0c0.1,0,0.2,0,0.3,0c0,0,0,0,0,0c0.3,0.7,0.8,1.3,1.3,1.8 C6.7,13.8,5.4,15.7,5.1,18z M17,21H7v-2.1c0-2.8,2.2-4.9,5-4.9c2.9,0,5,2.1,5,4.9V21z M22,18h-3.1c-0.3-2.3-1.7-4.2-3.7-5.2 c0.6-0.5,1-1.1,1.3-1.8c0.1,0,0.2,0,0.4,0v0c2.9,0,5,2.1,5,4.9V18z"></path> </g> </g></svg>
-                            Communities
-                        </li>
-                    </ul>
-                </div>
-                <div class="second-buttons">
-                    <ul>
-                        <li>
-                            <svg viewBox="0 0 600 600" version="1.1" id="svg9724" sodipodi:docname="settings.svg" inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"  id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs id="defs9728"></defs> <sodipodi:namedview id="namedview9726" pagecolor="" bordercolor="" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="" showgrid="true" inkscape:zoom="1.1896171" inkscape:cx="205.52832" inkscape:cy="369.44661" inkscape:window-width="1920" inkscape:window-height="1009" inkscape:window-x="0" inkscape:window-y="1080" inkscape:window-maximized="1" inkscape:current-layer="g10449" showguides="true"> <inkscape:grid type="xygrid" id="grid9972" originx="0" originy="0"></inkscape:grid> </sodipodi:namedview> <g id="g10449" transform="matrix(0.95173205,0,0,0.95115787,13.901174,12.168794)" style="stroke-width:1.05103"> <path id="path1129" style="stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers" d="m -899.99998,-310.79461 c -20.43409,0 -40.0078,4.62259 -52.90398,19.2757 -12.89618,14.65312 -13.31011,30.27623 -14.05636,39.78187 -0.74624,9.50565 -1.36732,15.42265 -2.80675,19.0879 -1.43942,3.66526 -2.62672,6.46545 -11.63186,11.66458 -9.00514,5.19911 -12.02109,4.82429 -15.91499,4.23825 -3.89398,-0.58605 -9.32638,-3.00427 -17.93168,-7.11083 -8.6053,-4.10655 -22.3462,-11.56116 -41.4843,-7.71929 -19.138,3.84186 -32.9287,18.48118 -43.1458,36.17762 -10.2171,17.69644 -15.9985,36.95986 -9.7566,55.45483 6.2418,18.49497 19.5659,26.66798 27.4249,32.06708 7.859,5.39908 12.6704,8.893362 15.1249,11.972567 2.4545,3.079205 4.2876,5.506097 4.2876,15.904332 0,10.398237 -1.8331,12.825128 -4.2876,15.904333 -2.4545,3.079204 -7.2659,6.57348 -15.1249,11.972569 -7.859,5.39909 -21.1831,13.572101 -27.4249,32.067077 -6.2419,18.4949758 -0.4605,37.758386 9.7566,55.454828 10.2171,17.696443 24.0078,32.335764 43.1458,36.177623 19.1381,3.84186 32.879,-3.612739 41.4843,-7.719295 8.6053,-4.106556 14.0377,-6.52478 17.93168,-7.110826 3.8939,-0.586047 6.90985,-0.960867 15.91499,4.238251 9.00514,5.199118 10.19243,7.999328 11.63186,11.664579 1.43943,3.665252 2.06051,9.582259 2.80675,19.087903 0.74625,9.505639 1.16018,25.128749 14.05636,39.781869 12.89618,14.65311 32.46989,19.2757 52.90398,19.2757 20.43409,0 40.0078,-4.62259 52.90398,-19.2757 12.89617,-14.65312 13.31011,-30.27623 14.05635,-39.781869 0.74624,-9.505644 1.36733,-15.422651 2.80676,-19.087903 1.43942,-3.665251 2.62672,-6.465461 11.63186,-11.664579 9.00513,-5.199119 12.02108,-4.824297 15.91499,-4.238251 3.89392,0.586046 9.32639,3.004271 17.93164,7.110826 8.60525,4.106555 22.34625,11.561156 41.48432,7.719295 19.13806,-3.84186 32.92874,-18.481179 43.14579,-36.177623 10.21705,-17.696442 15.99856,-36.9598523 9.75668,-55.454828 -6.24189,-18.494976 -19.56594,-26.667988 -27.42495,-32.067077 -7.859,-5.399088 -12.67039,-8.893365 -15.12488,-11.972569 -2.45449,-3.079205 -4.28764,-5.506097 -4.28764,-15.904333 0,-10.398236 1.83315,-12.825127 4.28764,-15.904332 2.45449,-3.079205 7.26588,-6.573487 15.12488,-11.972567 7.85901,-5.3991 21.18307,-13.57211 27.42495,-32.06708 6.24188,-18.49497 0.46037,-37.75839 -9.75668,-55.45483 -10.21705,-17.69644 -24.00773,-32.33576 -43.14579,-36.17762 -19.13807,-3.84186 -32.87907,3.61274 -41.48432,7.71929 -8.60525,4.10656 -14.03772,6.52478 -17.93164,7.11083 -3.89391,0.58604 -6.90986,0.96086 -15.91499,-4.23825 -9.00514,-5.19913 -10.19243,-7.99932 -11.63186,-11.66458 -1.43943,-3.66525 -2.06052,-9.58225 -2.80676,-19.0879 -0.74624,-9.50564 -1.16018,-25.12875 -14.05635,-39.78187 -12.89618,-14.65311 -32.46989,-19.2757 -52.90398,-19.2757 z m 0.0181,130.78031 c 55.63168,0 100.16735,44.4506 100.16735,100.014299 0,55.563699 -44.53567,100.014302 -100.16735,100.014302 -55.63168,0 -100.16738,-44.450603 -100.16738,-100.014302 0,-55.563699 44.5357,-100.014299 100.16738,-100.014299 z" transform="matrix(1.3636076,0,0,1.3667651,1527.8554,411.9526)" sodipodi:nodetypes="ssssssssscssssscssssssssssssssssssssssssssssssssssssss"></path> <g id="path10026" inkscape:transform-center-x="-0.59233046" inkscape:transform-center-y="-20.347403" transform="matrix(1.3807551,0,0,1.2700888,273.60014,263.99768)"></g> <g id="g11314" transform="matrix(1.5092301,0,0,1.3955555,36.774048,-9.4503933)" style="stroke-width:50.6951"></g> <path style="stroke-width:1.05103;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers" d="m 300.60937,218.51428 c -46.03938,0 -84.05805,38.06434 -84.05805,84.09712 0,46.03278 38.01867,84.09711 84.05805,84.09711 46.03938,0 84.05649,-38.06433 84.05649,-84.09711 0,-46.03278 -38.01711,-84.09712 -84.05649,-84.09712 z" id="path344" sodipodi:nodetypes="sssss"></path> </g> </g></svg>
-                            Settings
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 0c-8.836 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM20 2.593c4.507 1.343 8.052 4.9 9.397 9.407h-6.486c-0.701-1.204-1.706-2.209-2.91-2.908zM21.989 16.006c0 3.311-2.681 5.994-5.989 5.994s-5.989-2.683-5.989-5.994 2.681-5.994 5.989-5.994c3.307 0 5.989 2.684 5.989 5.994zM14 2.154c0.653-0.094 1.32-0.144 2-0.144s1.346 0.051 2 0.144v6.119c-0.64-0.165-1.308-0.262-2-0.262s-1.36 0.097-2 0.262v-6.119zM12 2.593v6.499c-1.205 0.7-2.21 1.704-2.91 2.908h-6.487c1.345-4.507 4.89-8.063 9.397-9.407zM2.010 16.005c0-0.682 0.058-1.349 0.152-2.005h6.106c-0.166 0.641-0.257 1.312-0.257 2.005 0 0.69 0.091 1.357 0.255 1.995h-6.105c-0.093-0.652-0.151-1.317-0.151-1.995zM12 29.416c-4.511-1.344-8.056-4.906-9.4-9.416h6.483c0.701 1.208 1.708 2.217 2.916 2.919v6.498zM18 29.855c-0.654 0.093-1.321 0.145-2 0.145s-1.347-0.052-2-0.145v-6.118c0.64 0.166 1.308 0.262 2 0.262s1.36-0.097 2-0.262v6.118zM20 29.416v-6.498c1.208-0.701 2.216-1.71 2.916-2.919h6.483c-1.343 4.511-4.89 8.073-9.399 9.416zM23.735 18c0.164-0.637 0.255-1.305 0.255-1.995 0-0.694-0.091-1.364-0.258-2.005h6.107c0.094 0.656 0.152 1.323 0.152 2.005 0 0.678-0.058 1.343-0.151 1.995h-6.105z"></path> </g></svg>
-                            Support
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="0" fill="none" width="20" height="20"></rect> <g> <path d="M10 9.6c-.6 0-1 .4-1 1 0 .4.3.7.6.8l-.3 1.4h1.3l-.3-1.4c.4-.1.6-.4.6-.8.1-.6-.3-1-.9-1zm.1-4.3c-.7 0-1.4.5-1.4 1.2V8h2.7V6.5c-.1-.7-.6-1.2-1.3-1.2zM10 2L3 5v3c.1 4.4 2.9 8.3 7 9.9 4.1-1.6 6.9-5.5 7-9.9V5l-7-3zm4 11c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9c0-.6.4-1 1-1h.3V6.5C7.4 5.1 8.6 4 10 4c1.4 0 2.6 1.1 2.7 2.5V8h.3c.6 0 1 .4 1 1v4z"></path> </g> </g></svg>
-                            Privacy
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="top-area">
-                <div class="top-row">
-                    <div class="search">
-                        search Icon
-                        <input class="searchbar" type="text" name="search" placeholder="Search" />
-                    </div>
-                    <div class="account">
-                        notif bell
-                        avatar
-                        name
-                    </div>
-                </div>
-                <div class="creation-area">
-                    avatar
-                    hi there name (@name)
-                    <div class="project-buttons">
-                        <button class="project-button">New</button>
-                        <button class="project-button">Upload</button>
-                        <button class="project-button">Share</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-area">
-                <div class="projects">
-                    Your Projects
-                    <div class="project-card">
-                    </div>
-                </div>
-                <div class="announcements">
-                    Announcements
-                </div>
-                <div class="trending">
-                    Trending
-                </div>
-            </div>
-
-
+  </head>
+  <body>
+    <div class="content">
+      <div class="sidebar">
+        <div class="title">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="dashboard" class="icon glyph"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect x="2" y="2" width="9" height="11" rx="2"></rect><rect x="13" y="2" width="9" height="7" rx="2"></rect><rect x="2" y="15" width="9" height="7" rx="2"></rect><rect x="13" y="11" width="9" height="11" rx="2"></rect></g></svg>
+          Dashboard
         </div>
+        <div class="main-buttons">
+          <ul>
+            <li>
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"></path> </g></svg>
+              Home
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8 9C9.38071 9 10.5 7.88071 10.5 6.5C10.5 5.11929 9.38071 4 8 4C6.61929 4 5.5 5.11929 5.5 6.5C5.5 7.88071 6.61929 9 8 9Z"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM6 10C4.80291 10 3.76957 10.7012 3.28827 11.7152C2.48151 10.6934 2 9.40294 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 9.40294 13.5185 10.6934 12.7117 11.7152C12.2304 10.7012 11.1971 10 10 10H6Z"></path> </g></svg>
+              Profile
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1H16V13H11L8 16L5 13H0V1Z"></path> </g></svg>
+              Messages
+            </li>
+            <li>
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.6972,0.468433 C12.354,1.06178 13.7689,2.18485 14.7228,3.66372 C15.6766,5.14258 16.1163,6.89471 15.9736,8.64872 C15.8309,10.4027 15.1138,12.0607 13.9334,13.366 C12.753,14.6712 11.1752,15.5508 9.4443,15.8685 C7.71342,16.1863 5.92606,15.9244 4.35906,15.1235 C2.79206,14.3226 1.53287,13.0274 0.776508,11.4384 C0.539137,10.9397 0.750962,10.343 1.24963,10.1057 C1.74831,9.86829 2.34499,10.0801 2.58236,10.5788 C3.14963,11.7705 4.09402,12.742 5.26927,13.3426 C6.44452,13.9433 7.78504,14.1397 9.08321,13.9014 C10.3814,13.6631 11.5647,13.0034 12.45,12.0245 C13.3353,11.0456 13.8731,9.80205 13.9801,8.48654 C14.0872,7.17103 13.7574,5.85694 13.042,4.74779 C12.3266,3.63864 11.2655,2.79633 10.0229,2.35133 C8.78032,1.90632 7.42568,1.88344 6.1688,2.28624 C5.34644,2.54978 4.59596,2.98593 3.96459,3.5597 L4.69779,4.29291 C5.32776,4.92287 4.88159,6.00002 3.99069,6.00002 L1.77635684e-15,6.00002 L1.77635684e-15,2.00933 C1.77635684e-15,1.11842 1.07714,0.672258 1.70711,1.30222 L2.54916,2.14428 C3.40537,1.3473 4.43126,0.742882 5.55842,0.381656 C7.23428,-0.155411 9.04046,-0.124911 10.6972,0.468433 Z M8,4 C8.55229,4 9,4.44772 9,5 L9,7.58579 L10.7071,9.29289 C11.0976,9.68342 11.0976,10.3166 10.7071,10.7071 C10.3166,11.0976 9.68342,11.0976 9.29289,10.7071 L7,8.41421 L7,5 C7,4.44772 7.44772,4 8,4 Z"></path> </g></svg>
+              History
+            </li>
+            <li>
+              <svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 0v7h7v-3.59l-1 1v1.59h-5v-5h3.59l1-1h-5.59zm7 0l-3 3-1-1-1 1 2 2 4-4-1-1z"></path> </g></svg>
+              Tasks
+            </li>
+            <li>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="group"> <path d="M24,15.9c0-2.8-1.5-5-3.7-6.1C21.3,8.8,22,7.5,22,6c0-2.8-2.2-5-5-5c-2.1,0-3.8,1.2-4.6,3c0,0,0,0,0,0c-0.1,0-0.3,0-0.4,0 c-0.1,0-0.3,0-0.4,0c0,0,0,0,0,0C10.8,2.2,9.1,1,7,1C4.2,1,2,3.2,2,6c0,1.5,0.7,2.8,1.7,3.8C1.5,10.9,0,13.2,0,15.9V20h5v3h14v-3h5 V15.9z M17,3c1.7,0,3,1.3,3,3c0,1.6-1.3,3-3,3c0-1.9-1.1-3.5-2.7-4.4c0,0,0,0,0,0C14.8,3.6,15.8,3,17,3z M13.4,4.2 C13.4,4.2,13.4,4.2,13.4,4.2C13.4,4.2,13.4,4.2,13.4,4.2z M15,9c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S15,7.3,15,9z M10.6,4.2 C10.6,4.2,10.6,4.2,10.6,4.2C10.6,4.2,10.6,4.2,10.6,4.2z M7,3c1.2,0,2.2,0.6,2.7,1.6C8.1,5.5,7,7.1,7,9C5.3,9,4,7.7,4,6S5.3,3,7,3 z M5.1,18H2v-2.1C2,13.1,4.1,11,7,11v0c0,0,0,0,0,0c0.1,0,0.2,0,0.3,0c0,0,0,0,0,0c0.3,0.7,0.8,1.3,1.3,1.8 C6.7,13.8,5.4,15.7,5.1,18z M17,21H7v-2.1c0-2.8,2.2-4.9,5-4.9c2.9,0,5,2.1,5,4.9V21z M22,18h-3.1c-0.3-2.3-1.7-4.2-3.7-5.2 c0.6-0.5,1-1.1,1.3-1.8c0.1,0,0.2,0,0.4,0v0c2.9,0,5,2.1,5,4.9V18z"></path> </g> </g></svg>
+              Communities
+            </li>
+          </ul>
+        </div>
+        <div class="second-buttons">
+          <ul>
+            <li>
+              <svg viewBox="0 0 600 600" version="1.1" id="svg9724" sodipodi:docname="settings.svg" inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"  id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs id="defs9728"></defs> <sodipodi:namedview id="namedview9726" pagecolor="" bordercolor="" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="" showgrid="true" inkscape:zoom="1.1896171" inkscape:cx="205.52832" inkscape:cy="369.44661" inkscape:window-width="1920" inkscape:window-height="1009" inkscape:window-x="0" inkscape:window-y="1080" inkscape:window-maximized="1" inkscape:current-layer="g10449" showguides="true"> <inkscape:grid type="xygrid" id="grid9972" originx="0" originy="0"></inkscape:grid> </sodipodi:namedview> <g id="g10449" transform="matrix(0.95173205,0,0,0.95115787,13.901174,12.168794)" style="stroke-width:1.05103"> <path id="path1129" style="stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers" d="m -899.99998,-310.79461 c -20.43409,0 -40.0078,4.62259 -52.90398,19.2757 -12.89618,14.65312 -13.31011,30.27623 -14.05636,39.78187 -0.74624,9.50565 -1.36732,15.42265 -2.80675,19.0879 -1.43942,3.66526 -2.62672,6.46545 -11.63186,11.66458 -9.00514,5.19911 -12.02109,4.82429 -15.91499,4.23825 -3.89398,-0.58605 -9.32638,-3.00427 -17.93168,-7.11083 -8.6053,-4.10655 -22.3462,-11.56116 -41.4843,-7.71929 -19.138,3.84186 -32.9287,18.48118 -43.1458,36.17762 -10.2171,17.69644 -15.9985,36.95986 -9.7566,55.45483 6.2418,18.49497 19.5659,26.66798 27.4249,32.06708 7.859,5.39908 12.6704,8.893362 15.1249,11.972567 2.4545,3.079205 4.2876,5.506097 4.2876,15.904332 0,10.398237 -1.8331,12.825128 -4.2876,15.904333 -2.4545,3.079204 -7.2659,6.57348 -15.1249,11.972569 -7.859,5.39909 -21.1831,13.572101 -27.4249,32.067077 -6.2419,18.4949758 -0.4605,37.758386 9.7566,55.454828 10.2171,17.696443 24.0078,32.335764 43.1458,36.177623 19.1381,3.84186 32.879,-3.612739 41.4843,-7.719295 8.6053,-4.106556 14.0377,-6.52478 17.93168,-7.110826 3.8939,-0.586047 6.90985,-0.960867 15.91499,4.238251 9.00514,5.199118 10.19243,7.999328 11.63186,11.664579 1.43943,3.665252 2.06051,9.582259 2.80675,19.087903 0.74625,9.505639 1.16018,25.128749 14.05636,39.781869 12.89618,14.65311 32.46989,19.2757 52.90398,19.2757 20.43409,0 40.0078,-4.62259 52.90398,-19.2757 12.89617,-14.65312 13.31011,-30.27623 14.05635,-39.781869 0.74624,-9.505644 1.36733,-15.422651 2.80676,-19.087903 1.43942,-3.665251 2.62672,-6.465461 11.63186,-11.664579 9.00513,-5.199119 12.02108,-4.824297 15.91499,-4.238251 3.89392,0.586046 9.32639,3.004271 17.93164,7.110826 8.60525,4.106555 22.34625,11.561156 41.48432,7.719295 19.13806,-3.84186 32.92874,-18.481179 43.14579,-36.177623 10.21705,-17.696442 15.99856,-36.9598523 9.75668,-55.454828 -6.24189,-18.494976 -19.56594,-26.667988 -27.42495,-32.067077 -7.859,-5.399088 -12.67039,-8.893365 -15.12488,-11.972569 -2.45449,-3.079205 -4.28764,-5.506097 -4.28764,-15.904333 0,-10.398236 1.83315,-12.825127 4.28764,-15.904332 2.45449,-3.079205 7.26588,-6.573487 15.12488,-11.972567 7.85901,-5.3991 21.18307,-13.57211 27.42495,-32.06708 6.24188,-18.49497 0.46037,-37.75839 -9.75668,-55.45483 -10.21705,-17.69644 -24.00773,-32.33576 -43.14579,-36.17762 -19.13807,-3.84186 -32.87907,3.61274 -41.48432,7.71929 -8.60525,4.10656 -14.03772,6.52478 -17.93164,7.11083 -3.89391,0.58604 -6.90986,0.96086 -15.91499,-4.23825 -9.00514,-5.19913 -10.19243,-7.99932 -11.63186,-11.66458 -1.43943,-3.66525 -2.06052,-9.58225 -2.80676,-19.0879 -0.74624,-9.50564 -1.16018,-25.12875 -14.05635,-39.78187 -12.89618,-14.65311 -32.46989,-19.2757 -52.90398,-19.2757 z m 0.0181,130.78031 c 55.63168,0 100.16735,44.4506 100.16735,100.014299 0,55.563699 -44.53567,100.014302 -100.16735,100.014302 -55.63168,0 -100.16738,-44.450603 -100.16738,-100.014302 0,-55.563699 44.5357,-100.014299 100.16738,-100.014299 z" transform="matrix(1.3636076,0,0,1.3667651,1527.8554,411.9526)" sodipodi:nodetypes="ssssssssscssssscssssssssssssssssssssssssssssssssssssss"></path> <g id="path10026" inkscape:transform-center-x="-0.59233046" inkscape:transform-center-y="-20.347403" transform="matrix(1.3807551,0,0,1.2700888,273.60014,263.99768)"></g> <g id="g11314" transform="matrix(1.5092301,0,0,1.3955555,36.774048,-9.4503933)" style="stroke-width:50.6951"></g> <path style="stroke-width:1.05103;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers" d="m 300.60937,218.51428 c -46.03938,0 -84.05805,38.06434 -84.05805,84.09712 0,46.03278 38.01867,84.09711 84.05805,84.09711 46.03938,0 84.05649,-38.06433 84.05649,-84.09711 0,-46.03278 -38.01711,-84.09712 -84.05649,-84.09712 z" id="path344" sodipodi:nodetypes="sssss"></path> </g> </g></svg>
+              Settings
+            </li>
+            <li>
+              <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 0c-8.836 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM20 2.593c4.507 1.343 8.052 4.9 9.397 9.407h-6.486c-0.701-1.204-1.706-2.209-2.91-2.908zM21.989 16.006c0 3.311-2.681 5.994-5.989 5.994s-5.989-2.683-5.989-5.994 2.681-5.994 5.989-5.994c3.307 0 5.989 2.684 5.989 5.994zM14 2.154c0.653-0.094 1.32-0.144 2-0.144s1.346 0.051 2 0.144v6.119c-0.64-0.165-1.308-0.262-2-0.262s-1.36 0.097-2 0.262v-6.119zM12 2.593v6.499c-1.205 0.7-2.21 1.704-2.91 2.908h-6.487c1.345-4.507 4.89-8.063 9.397-9.407zM2.010 16.005c0-0.682 0.058-1.349 0.152-2.005h6.106c-0.166 0.641-0.257 1.312-0.257 2.005 0 0.69 0.091 1.357 0.255 1.995h-6.105c-0.093-0.652-0.151-1.317-0.151-1.995zM12 29.416c-4.511-1.344-8.056-4.906-9.4-9.416h6.483c0.701 1.208 1.708 2.217 2.916 2.919v6.498zM18 29.855c-0.654 0.093-1.321 0.145-2 0.145s-1.347-0.052-2-0.145v-6.118c0.64 0.166 1.308 0.262 2 0.262s1.36-0.097 2-0.262v6.118zM20 29.416v-6.498c1.208-0.701 2.216-1.71 2.916-2.919h6.483c-1.343 4.511-4.89 8.073-9.399 9.416zM23.735 18c0.164-0.637 0.255-1.305 0.255-1.995 0-0.694-0.091-1.364-0.258-2.005h6.107c0.094 0.656 0.152 1.323 0.152 2.005 0 0.678-0.058 1.343-0.151 1.995h-6.105z"></path> </g></svg>
+              Support
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="0" fill="none" width="20" height="20"></rect> <g> <path d="M10 9.6c-.6 0-1 .4-1 1 0 .4.3.7.6.8l-.3 1.4h1.3l-.3-1.4c.4-.1.6-.4.6-.8.1-.6-.3-1-.9-1zm.1-4.3c-.7 0-1.4.5-1.4 1.2V8h2.7V6.5c-.1-.7-.6-1.2-1.3-1.2zM10 2L3 5v3c.1 4.4 2.9 8.3 7 9.9 4.1-1.6 6.9-5.5 7-9.9V5l-7-3zm4 11c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9c0-.6.4-1 1-1h.3V6.5C7.4 5.1 8.6 4 10 4c1.4 0 2.6 1.1 2.7 2.5V8h.3c.6 0 1 .4 1 1v4z"></path> </g> </g></svg>
+              Privacy
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="top-area">
+        <div class="top-row">
+          <div class="search">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+            <input class="searchbar" type="text" name="search"/>
+          </div>
+          <div class="account">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bell-ring</title><path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" /></svg>
+            <img src="assets/images/avatar.jpg" alt="avatar" />
+            Oliver Lawson
+          </div>
+        </div>
+        <div class="creation-area">
+          <div class="user">
+          <img src="assets/images/avatar.jpg" alt="avatar">
+          <div class="welcome">
+            <p id="hello">Hi there,</p>
+            <p>Oliver Lawson (@olaw)</p>
+          </div>
+          </div>
+          <div class="project-buttons">
+            <button class="project-button">New</button>
+            <button class="project-button">Upload</button>
+            <button class="project-button">Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-area">
+        <div class="projects">
+          Your Projects
+          <div class="project-card">
+          </div>
+        </div>
+        <div class="announcements">
+          Announcements
+        </div>
+        <div class="trending">
+          Trending
+        </div>
+      </div>
 
 
-    </body>
+    </div>
+
+
+  </body>
 </html>
+
