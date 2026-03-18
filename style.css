@@ -208,8 +208,6 @@
 
 .project-card {
   display: grid;
-  background-color: white;
-  border-radius: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -226,9 +224,6 @@
 
 .card-heading {
   align-self: flex-end;
-
-  .trending {2/3}
-  font-size: 1.1rem;
 }
 
 .anounce-trend-container {
@@ -237,6 +232,30 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   row-gap: 25px;
-  outline: dashed 2px red;
+  margin: 0 10px 20px 0;
+  align-items: stretch;
 }
 
+.project-card,
+.card {
+  box-shadow: 4px 4px 10px #3f394d;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.announcements.card {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.announcements.card > h3,
+.announcements.card > p {
+  padding: 0 20px;
+}
+
+.card hr {
+  margin: 5px 20px;
+}
