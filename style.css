@@ -259,3 +259,18 @@
 .card hr {
   margin: 5px 20px;
 }
+
+.trending-accounts {
+  height: 83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-account {
+  display: flex;
+}
+
+.handle {
+  font-weight: bold;
+}
